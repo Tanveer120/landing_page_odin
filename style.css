@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins";
+}
+
+.navList{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    gap: 15px;
+    background-color: #1F2937;
+}
+
+.navLogo{
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: auto;
+    text-align: center;
+    color: #F9FAF8;
+    
+}
+
+.navList li{
+    margin-top: 10px;
+}
+
+.navLinkDiv a{
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.navLinkDiv{
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+    gap: 20px;
+}
+
+.heroContainer2{
+    height: 800px;
+    background-color: #1F2937;
+    height: 300px;
+    width: 300px;
+    
+}
