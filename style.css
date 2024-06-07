@@ -48,9 +48,56 @@ body{
 }
 
 .heroContainer2{
-    height: 800px;
+    height: 80vh;
     background-color: #1F2937;
-    height: 300px;
-    width: 300px;
-    
+    display: flex;
+    align-items: center;
 }
+
+.heroContent{
+    height: 280px;
+    width: 500px;
+    margin-left: 150px;
+}
+
+.heroContent h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.heroContent p{
+    font-size: 17.5px;
+    color: #E5E7EB;
+}
+
+.heroContent button{
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.heroImg{
+    height: 280px;
+    width: 530px;
+    background-color: rgba(255, 255, 255, 0.39);
+    visibility: 50%;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.heroImg img{
+    height: 300px;
+    width: 530px;
+    vertical-align: middle;
+    background-size: cover;
+    color: #F9FAF8;
+}
+
