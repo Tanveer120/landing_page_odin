@@ -202,3 +202,13 @@ body{
     font-size: 24px;
 }
 
+footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
